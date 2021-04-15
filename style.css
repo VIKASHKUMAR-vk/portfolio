@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.header{
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    position: relative;
+    background-position: 0px;
+    height: 700px;
+    border: rgb(0, 0, 0) solid 2px;
+    padding: 5px;
+    background-clip: border-box;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.head{
+  
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(240, 16, 16); 
+    position: absolute;
+    animation-name: motion;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    left: 35%;
+    top: 300px;
+    
+}
+@keyframes motion{
+    0%{
+        left: 35%;
+        top: 0px;}
+    100%{
+        left: 35%;
+        top: 300px;
+    }
+}
+.head h1,.head p{
+    margin: 0px;
+    padding: 0px;
+}
+.head h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.head p{
+    color:rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.head span{
+    color:rgb(31, 6, 121);
+}
+.middle{
+    background-image: url("front.jpg");
+    background-attachment: fixed;
+    position: relative;
+    background-position: 75%;
+    height: 700px;
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 50px;
+    background-clip: border-box;  
+
+
+}
+.middle>h1{
+    color: rgb(48, 226, 25);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-family: cursive;
+}
+.project1{
+    /* top: 0px; */
+    left: 0px;
+}
+
+.project2{
+    clear: left;
+    left: 300px;
+    top: 40%;
+    
+}
+.project3{
+    clear: left;
+    right: 0px;
+    top: 70%;
+    
+}
+.project1,.project2,.project3{
+    margin-left: 15px;
+    background-color: rgb(124, 101, 151);
+    width: 500px;
+    /* height: 150px; */
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 12px;
+    float: left;
+    position: absolute;
+    box-shadow: -8px 5px 15px white;
+}
+.project1 div,.project2 div,.project3 div{
+    display: flex;
+}
+.project1 h1,.project2 h1,.project3 h1{
+    text-align: center;
+    margin: 2px;
+    
+}
+.project1 img,.project2 img,.project3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    clear: left;
+}
+.project1 p,.project2 p,.project3 p{
+    float: left;
+    margin: 10px;
+}
+footer div{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+div a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#header {
+    color: #f70000;
+    clear: both;
+    height: 50px;
+    background-image: url(header_footer.png);
+    background-repeat: repeat-x;
+    text-align: right;
+    line-height: 50px;
+    background-image: url("header.jpg");
+    background-position: 150px;
+    background-size: auto;
+    /* background-image: linear-gradient(black,white,black); */
+    font-weight: bolder;
+    
+}
+#header a{
+    color: #f70000;
+    padding-left: 15px;
+    padding-right: 40px;
+}
+#header a:hover{
+    color: yellow;
+}
